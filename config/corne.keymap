@@ -36,14 +36,14 @@
                 };
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  |  |  \  |  /  |  *  |  -  |  +  |   |     |  $  |  ~  |  {  |  }  | BSPC |
+// |  |  |  \  |  /  |  *  |  -  |  +  |   |  $  |  ~  |  {  |  }  |     | BSPC |
 // |  `  |  :  |  '  |  "  |  _  |  =  |   |  #  |  @  |  (  |  )  |  <  |  >   |
 // |     |  ^  |  ;  |  .  |  ?  |  !  |   |  %  |  &  |  {  |  }  |     |      |
 //                   | GUI | RSE | SPC |   | ENT | LWR | RALT|
                         bindings = <
-   &kp LS(BSLH) &kp BSLH    &kp FSLH    &kp LS(N8)   &kp MINUS    &kp LS(EQUAL)   &trans      &kp LS(N4)  &kp LS(GRAVE) &kp LBRC    &kp RBRC    &kp BSPC
+   &kp LS(BSLH) &kp BSLH    &kp FSLH    &kp LS(N8)   &kp MINUS    &kp LS(EQUAL)   &kp LS(N4)  &kp LS(GRAVE) &kp LBRC    &kp RBRC    &trans        &kp BSPC
    &kp GRAVE    &kp LS(SEMI) &kp SQT    &kp LS(SQT)  &kp LS(MINUS) &kp EQUAL      &kp LS(N3)  &kp LS(N2)  &kp LS(N9)    &kp LS(N0)  &kp LS(COMMA) &kp LS(DOT)
-   &trans       &kp LS(N6)  &kp SEMI    &kp DOT      &kp LS(FSLH) &kp LS(N1)      &kp LS(N5)  &kp LS(N7)  &kp LBRC      &kp RBRC    &trans      &trans
+   &trans       &kp LS(N6)  &kp SEMI    &kp DOT      &kp LS(FSLH) &kp LS(N1)      &kp LS(N5)  &kp LS(N7)  &kp LBRC      &kp RBRC    &trans        &trans
                                          &kp LGUI     &mo 2        &kp SPACE       &kp RET     &mo 1       &kp RALT
                         >;
                 };
